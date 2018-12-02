@@ -18,7 +18,6 @@ class dotsBuilder:
         plt.xlim((0, 100))
         plt.ylim((0, 100))
         plt.draw()
-        # print(angularCoeficient(self.xs, self.ys))
 
 class lineBuilder:
     def __init__(self, ax):
