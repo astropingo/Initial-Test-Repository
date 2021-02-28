@@ -58,7 +58,7 @@ def coeficients(xValues, yValues, mode):
     elif mode == "b":
         return b
 
-
+#plotting it
 fig = plt.figure()
 ax = fig.add_subplot(111)
 db = dotsBuilder(ax)
